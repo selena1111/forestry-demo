@@ -23,13 +23,6 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
-- name: sortable_list
-  type: blocks
-  label: sortable list
-  template_types: []
-  config:
-    min: 
-    max: 
 - name: services
   label: Services
   type: field_group_list
@@ -51,6 +44,14 @@ fields:
     default: ''
   hidden: false
   default: ''
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - posts
+  config:
+    min: 
+    max: 
 pages:
 - customers.md
 - homepage.md
