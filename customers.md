@@ -36,6 +36,5 @@ blocks:
   layout: post
 - template: posts
   layout: post
-published: false
 
 ---
