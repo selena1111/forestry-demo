@@ -13,7 +13,11 @@ show_news: false
 partners: []
 show_staff: false
 sortable_list: []
-blocks: []
+blocks:
+- template: posts
+  layout: post
+- template: posts
+  layout: post
 menu:
   navigation:
     identifier: _contact
