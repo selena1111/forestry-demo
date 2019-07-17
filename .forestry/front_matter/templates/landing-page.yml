@@ -42,16 +42,34 @@ fields:
     type: file
     hidden: false
     default: ''
+  - name: repeatable
+    type: field_group_list
+    fields:
+    - name: area1
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: area1
+    - name: area2
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: area2
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: repeatable
   hidden: false
   default: ''
-- name: blocks
-  type: blocks
-  label: Blocks
-  template_types:
-  - posts
-  config:
-    min: 
-    max: 
 pages:
 - customers.md
 - homepage.md
