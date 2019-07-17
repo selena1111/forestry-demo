@@ -8,6 +8,9 @@ partners:
 - "/uploads/2017/11/13/UPenn_logo.png"
 - "/uploads/2017/11/13/nysed.png"
 services:
+- heading: Chemistry
+  description: Chemistry
+  icon: "/uploads/2017/11/13/UPenn_logo.png"
 - description: Performing collaborative research and providing services to support
     the Health Sector.
   heading: Health
@@ -25,6 +28,7 @@ hero_button:
   text: Learn more
   href: "/about"
 show_news: true
+show_staff: false
 menu:
   navigation:
     identifier: _index
