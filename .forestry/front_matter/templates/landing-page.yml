@@ -27,11 +27,11 @@ fields:
   label: Services
   type: field_group_list
   fields:
-  - name: heading
-    label: Heading
+  - name: text
     type: text
-    hidden: false
-    default: ''
+    config:
+      required: false
+    label: text
   - name: description
     label: Description
     type: text
@@ -42,32 +42,11 @@ fields:
     type: file
     hidden: false
     default: ''
-  - name: repeatable
-    type: field_group_list
-    fields:
-    - name: area1
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: area1
-    - name: area2
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: area2
+  - name: image_file
+    type: file
     config:
-      min: 
-      max: 
-      labelField: 
-    label: repeatable
+      maxSize: 250
+    label: image file
   hidden: false
   default: ''
 pages:
