@@ -23,6 +23,11 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
+- name: slug
+  type: include
+  config: {}
+  template: posts
+  label: Slug
 - name: services
   label: Services
   type: field_group_list
@@ -54,11 +59,6 @@ fields:
   config: {}
   template: posts
   label: layout
-- name: slug
-  type: include
-  config: {}
-  template: project
-  label: Slug
 pages:
 - index.md
 - customers.md
