@@ -10,7 +10,7 @@ partners:
 services:
 - heading: Chemistry
   description: Chemistry
-  icon: "/uploads/2017/11/13/UPenn_logo.png"
+  icon: "/uploads/2017/11/13/biotech.png"
 - description: Performing collaborative research and providing services to support
     the Health Sector.
   heading: Health
@@ -33,6 +33,7 @@ menu:
   navigation:
     identifier: _index
     weight: 1
+published: false
 
 ---
     
