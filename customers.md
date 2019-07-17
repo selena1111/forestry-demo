@@ -8,22 +8,7 @@ hero_button:
   text: ''
   href: ''
 textline: ''
-services:
-- heading: ''
-  description: ''
-  icon: ''
-- heading: ''
-  description: ''
-  icon: ''
-- heading: ''
-  description: ''
-  icon: ''
-- heading: ''
-  description: ''
-  icon: ''
-- description: ''
-  icon: ''
-  heading: f
+services: []
 show_news: false
 partners: []
 show_staff: false
