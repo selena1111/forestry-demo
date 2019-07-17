@@ -27,6 +27,11 @@ fields:
   - type: text
     name: href
     label: href
+  - name: file_upload
+    type: file
+    config:
+      maxSize: 250
+    label: File upload
 - type: text
   name: textline
   label: textline
