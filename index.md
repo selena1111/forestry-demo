@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: "/uploads/2019/07/17/_KG77139.jpg"
 layout: landing-page
 heading: Belkirk College
 partners:
