@@ -9,6 +9,14 @@ hero_button:
   href: ''
 textline: ''
 services:
+- text: Fahrplan
+  description: Fahrplan
+  icon: "/uploads/2018/02/17/bridge3.jpg"
+  image_file: "/uploads/2019/07/17/606_fahrplan.pdf"
+- text: ''
+  description: ''
+  icon: ''
+  image_file: ''
 - heading: Chemistry
   icon: "/uploads/2017/11/13/health.png"
   repeatable:
@@ -17,6 +25,8 @@ services:
   - area1: ''
     area2: ''
   description: Chemistry
+  text: ''
+  image_file: ''
 show_news: false
 partners: []
 show_staff: false
