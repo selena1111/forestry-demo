@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/uploads/2017/11/14/andrew-robles-300868.jpg"
+banner_image: ''
 layout: landing-page
 heading: Belkirk College
 partners:
@@ -46,6 +46,7 @@ menu:
     weight: 1
 
 ---
-* ![](/uploads/2017/11/14/alejandra-higareda-295605.jpg)Chemistry
+* ![alex](/uploads/2017/11/14/alejandra-higareda-295605.jpg "Image Alexandara")
+* Chemistry
 * Biology
 * Geography
