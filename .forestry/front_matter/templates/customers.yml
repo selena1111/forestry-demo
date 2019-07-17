@@ -34,13 +34,6 @@ fields:
     config:
       required: false
     label: text2
-  - name: text1
-    type: field_group_list
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: text1
   - name: text3
     type: text
     config:
