@@ -8,7 +8,15 @@ hero_button:
   text: ''
   href: ''
 textline: ''
-services: []
+services:
+- heading: Chemistry
+  icon: ''
+  repeatable:
+  - area1: Area 1
+    area2: Area 2
+  - area1: ''
+    area2: ''
+  description: ''
 show_news: false
 partners: []
 show_staff: false
