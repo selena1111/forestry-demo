@@ -10,13 +10,13 @@ hero_button:
 textline: ''
 services:
 - heading: Chemistry
-  icon: ''
+  icon: "/uploads/2017/11/13/health.png"
   repeatable:
   - area1: Area 1
     area2: Area 2
   - area1: ''
     area2: ''
-  description: ''
+  description: Chemistry
 show_news: false
 partners: []
 show_staff: false
