@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/uploads/2019/07/17/20150309_144058.jpg"
+banner_image: "/uploads/2017/11/14/andrew-robles-300868.jpg"
 layout: landing-page
 heading: Belkirk College
 partners:
