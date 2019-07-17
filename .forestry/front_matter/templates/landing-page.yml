@@ -54,6 +54,11 @@ fields:
   config: {}
   template: posts
   label: layout
+- name: slug
+  type: include
+  config: {}
+  template: project
+  label: Slug
 pages:
 - customers.md
 - homepage.md
