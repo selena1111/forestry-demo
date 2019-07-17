@@ -79,5 +79,6 @@ fields:
   hidden: true
   default: home
 pages:
+- customers.md
 - homepage.md
 - index.md
