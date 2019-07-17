@@ -46,3 +46,6 @@ menu:
     weight: 1
 
 ---
+* Chemistry
+* Biology
+* Geography
