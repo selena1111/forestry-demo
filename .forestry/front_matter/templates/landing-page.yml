@@ -49,6 +49,11 @@ fields:
     label: image file
   hidden: false
   default: ''
+- name: layout
+  type: include
+  config: {}
+  template: posts
+  label: layout
 pages:
 - customers.md
 - homepage.md
