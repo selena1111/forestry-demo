@@ -19,6 +19,5 @@ show_news: true
 partners:
 - "/uploads/2017/11/13/stem.png"
 show_staff: false
-published: false
 
 ---
