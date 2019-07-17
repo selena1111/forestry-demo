@@ -12,16 +12,22 @@ services:
   description: Chemistry
   icon: "/uploads/2017/11/13/biotech.png"
   repeatable: []
+  text: ''
+  image_file: ''
 - description: Performing collaborative research and providing services to support
     the Health Sector.
   heading: Health
   icon: "/uploads/2017/11/13/health.png"
   repeatable: []
+  text: ''
+  image_file: ''
 - description: Performing collaborative research and providing services to support
     the biotechnology sector.
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
   repeatable: []
+  text: ''
+  image_file: ''
 sub_heading: Engineering and Health Sciences
 textline: |2-
       Belkirk College of Engineering
@@ -32,6 +38,8 @@ hero_button:
   href: "/about"
 show_news: false
 show_staff: false
+tags: []
+slug: ''
 menu:
   navigation:
     identifier: _index

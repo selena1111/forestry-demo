@@ -60,6 +60,6 @@ fields:
   template: project
   label: Slug
 pages:
+- index.md
 - customers.md
 - homepage.md
-- index.md
