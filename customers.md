@@ -28,9 +28,8 @@ show_news: false
 partners: []
 show_staff: false
 sortable_list: []
-blocks:
-- template: posts
-  layout: post
+blocks: []
 published: false
 
 ---
+f
