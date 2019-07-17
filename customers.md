@@ -3,7 +3,7 @@ heading: Our Customers
 sub_heading: Engineering and Health Sciences
 layout: home
 title: Customers
-banner_image: ''
+banner_image: "/uploads/2018/02/17/neurons.jpg"
 hero_button:
   text: ''
   href: ''
