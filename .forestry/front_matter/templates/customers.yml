@@ -9,9 +9,6 @@ fields:
   name: sub_heading
   label: sub_heading
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
   label: title
 - type: file
