@@ -17,49 +17,33 @@ fields:
 - type: file
   name: banner_image
   label: banner_image
-- type: field_group
-  name: hero_button
-  label: hero_button
-  fields:
-  - type: text
-    name: text
-    label: text
-  - type: text
-    name: href
-    label: href
-  - name: file_upload
-    type: file
-    config:
-      maxSize: 250
-    label: File upload
 - type: text
   name: textline
   label: textline
-- type: field_group_list
-  name: services
-  label: services
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
+- name: blocks
+  type: field_group
+  config: {}
   fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: text
-    name: description
-    label: description
-  - type: text
-    name: icon
-    label: icon
-- type: boolean
-  name: show_news
-  label: show_news
-- type: list
-  name: partners
-  label: partners
-- type: boolean
-  name: show_staff
-  label: show_staff
-- type: list
-  name: sortable_list
-  label: sortable_list
-- type: list
-  name: blocks
-  label: blocks
+  - name: text2
+    type: text
+    config:
+      required: false
+    label: text2
+  - name: text1
+    type: field_group_list
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: text1
+  - name: text3
+    type: text
+    config:
+      required: false
+    label: text3
+  label: Blocks
