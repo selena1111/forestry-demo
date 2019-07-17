@@ -29,6 +29,11 @@ partners: []
 show_staff: false
 sortable_list: []
 blocks: []
+menu:
+  navigation:
+    identifier: _contact
+    weight: 5
+    title: Contact
 
 ---
 [Burkley ](www.burkley.com "Burkley")
