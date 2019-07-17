@@ -19,7 +19,6 @@ menu:
     identifier: _contact
     weight: 5
     title: Contact
-published: false
 
 ---
 <body>
