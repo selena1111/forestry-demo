@@ -59,3 +59,6 @@ fields:
   config: {}
   label: Add a Galery
   description: Here upload media files for the gallery
+- name: toggle_show_news
+  type: boolean
+  label: toggle show news
