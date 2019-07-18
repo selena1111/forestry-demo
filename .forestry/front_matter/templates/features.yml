@@ -12,14 +12,6 @@ fields:
   type: image_gallery
   config: {}
   label: gallery upload
-- name: blocks
-  type: blocks
-  label: blocks
-  template_types:
-  - posts
-  config:
-    min: 
-    max: 
 - name: tags
   type: tag_list
   default: []
