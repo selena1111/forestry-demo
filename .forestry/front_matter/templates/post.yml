@@ -62,3 +62,5 @@ fields:
 - name: toggle_show_news
   type: boolean
   label: toggle show news
+pages:
+- _posts/saas-solution.html
