@@ -10,6 +10,18 @@ fields:
   config:
     required: true
   description: Give this a title
+- name: hero_image
+  type: file
+  config:
+    maxSize: 250
+  label: Hero Image
+  description: This is the first image in the post
+- name: projectcolorcolor
+  type: color
+  config:
+    required: true
+    color_format: Hex
+  label: project color
 - name: text_default
   type: textarea
   default: ''
@@ -27,9 +39,10 @@ fields:
   label: Publish Date
   type: datetime
   hidden: false
-  default: ''
+  default: now
   config:
     date_format: DD/MM/YYYY
+  description: Enter the date for the project. This will be used to sort.
 - name: tags
   label: Tags
   type: tag_list
@@ -40,3 +53,8 @@ fields:
   type: text
   hidden: true
   default: post
+- name: add_a_galery
+  type: image_gallery
+  config: {}
+  label: Add a Galery
+  description: Here upload media files for the gallery
