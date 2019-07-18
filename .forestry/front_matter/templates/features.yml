@@ -1,4 +1,26 @@
 ---
 label: Features
 hide_body: false
-fields: []
+display_field: image_file
+fields:
+- name: image_file
+  type: text
+  config:
+    required: false
+  label: image file
+- name: gallery_upload
+  type: image_gallery
+  config: {}
+  label: gallery upload
+- name: blocks
+  type: blocks
+  label: blocks
+  template_types:
+  - posts
+  config:
+    min: 
+    max: 
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
