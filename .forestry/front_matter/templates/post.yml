@@ -7,6 +7,18 @@ fields:
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
+  description: Give this a title
+- name: text_default
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text_default
 - type: text
   label: Sub Heading
   name: sub_heading
