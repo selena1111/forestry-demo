@@ -9,6 +9,7 @@ fields:
   default: ''
   config:
     required: true
+  description: enter title
 - type: text
   label: Hero Heading
   name: heading
